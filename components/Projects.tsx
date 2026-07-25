@@ -2,8 +2,8 @@ import { portfolioData } from "@/data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20 bg-[#1e1e1e]">
-      <div className="max-w-6xl mx-auto px-6 md:px-16">
+    <section id="projects" className="py-12 px-4 sm:px-8 md:px-12 lg:px-16 bg-[#1e1e1e]">
+      <div className="max-w-6xl mx-auto">
         <p className="font-mono text-[#6a9955] text-sm mb-1">// recent work</p>
         <h2 className="font-mono text-2xl font-bold text-white mb-10">
           <span className="text-[#569cd6]">function</span>{" "}
@@ -11,7 +11,7 @@ export default function Projects() {
           <span className="text-white">() {"{"}</span>
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {portfolioData.projects.map((project, i) => (
             <div
               key={project.id}

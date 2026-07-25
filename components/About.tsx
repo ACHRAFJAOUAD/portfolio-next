@@ -2,8 +2,8 @@ import { portfolioData } from "@/data";
 
 export default function About() {
   return (
-    <section id="about" className="py-20">
-      <div style={{paddingLeft: '3rem', paddingRight: '3rem'}}>
+    <section id="about" className="py-12 px-4 sm:px-8 md:px-12 lg:px-16">
+      <div className="max-w-4xl mx-auto">
         <p className="font-mono text-[#6a9955] text-sm mb-2">// who am i?</p>
         <h2 className="font-mono text-2xl font-bold text-white mb-8">
           <span className="text-[#c586c0]">class</span>{" "}
@@ -11,15 +11,13 @@ export default function About() {
           <span className="text-white">{"{"}</span>
         </h2>
 
-        {/* Bio */}
         <p className="font-mono text-sm text-[#6a9955] mb-10">{`/* ${portfolioData.bio} */`}</p>
 
-        {/* Experience */}
         <p className="font-mono text-[#569cd6] text-xs mb-4">// experience</p>
         <div className="space-y-8 mb-12">
           {portfolioData.experience.map((exp) => (
-            <div key={exp.id} className="border-l-2 border-[#3c3c3c] pl-5">
-              <h3 className="font-mono text-[#4ec9b0] font-bold">{exp.title}</h3>
+            <div key={exp.id} className="border-l-2 border-[#3c3c3c] pl-4 sm:pl-5">
+              <h3 className="font-mono text-[#4ec9b0] font-bold text-sm sm:text-base">{exp.title}</h3>
               <p className="font-mono text-xs text-[#858585] mb-2">
                 {exp.company} • {exp.location} | {exp.period}
               </p>
@@ -34,11 +32,10 @@ export default function About() {
           ))}
         </div>
 
-        {/* Education */}
         <p className="font-mono text-[#569cd6] text-xs mb-4">// education</p>
         <div className="space-y-4 mb-12">
           {portfolioData.education.map((edu) => (
-            <div key={edu.id} className="border-l-2 border-[#3c3c3c] pl-5">
+            <div key={edu.id} className="border-l-2 border-[#3c3c3c] pl-4 sm:pl-5">
               <h3 className="font-mono text-[#4ec9b0] text-sm font-bold">{edu.degree}</h3>
               <p className="font-mono text-xs text-[#858585]">
                 {edu.school}, {edu.location} • {edu.year}
@@ -47,7 +44,6 @@ export default function About() {
           ))}
         </div>
 
-        {/* Certifications */}
         <p className="font-mono text-[#569cd6] text-xs mb-4">// certifications</p>
         <div className="space-y-2">
           {portfolioData.certifications.map((cert, i) => (

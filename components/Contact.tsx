@@ -45,7 +45,7 @@ export default function Contact() {
   });
 
   return (
-    <section id="contact" className="flex min-h-[75vh] items-center justify-center bg-[#1e1e1e] px-4 py-10 sm:px-6 lg:px-8">
+    <section id="contact" className="flex min-h-full items-center justify-center bg-[#1e1e1e] px-4 py-10 sm:px-8 md:px-12">
       {toast && (
         <div className="fixed bottom-6 right-6 z-50 flex items-start gap-3 rounded-xl border border-[#6a9955]/40 bg-[#252526] px-5 py-4 font-mono text-sm shadow-2xl shadow-black/50">
           <span className="mt-0.5 text-[#6a9955]">✓</span>
@@ -62,7 +62,7 @@ export default function Contact() {
           <p className="mb-2 font-mono text-sm text-[#6a9955]">// let&apos;s connect</p>
           <h2 className="font-mono text-2xl font-semibold text-white sm:text-3xl">
             <span className="text-[#dcdcaa]">sendMessage</span>
-            <span className="text-white">({"{"})</span>
+            <span className="text-white">(){"{"}</span>
           </h2>
         </div>
 
@@ -104,7 +104,7 @@ export default function Contact() {
           </div>
         </form>
 
-        <p className="mt-4 font-mono text-2xl font-semibold text-white sm:text-3xl">{"});"}</p>
+        <p className="mt-4 font-mono text-2xl font-semibold text-white text-center sm:text-3xl">{"};"}</p>
       </div>
     </section>
   );

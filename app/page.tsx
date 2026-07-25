@@ -1,15 +1,4 @@
-import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Footer from "@/components/Footer";
-
 export default function Home() {
-  return (
-    <main className="flex h-screen flex-col overflow-hidden bg-[#1e1e1e]">
-      <Navbar />
-      <div className="flex-1 overflow-y-auto">
-        <Hero />
-      </div>
-      <Footer />
-    </main>
-  );
+  return <Hero />;
 }
