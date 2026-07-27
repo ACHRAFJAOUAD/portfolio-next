@@ -4,7 +4,7 @@ export const portfolioData = {
   bio: "Full-stack software developer specialized in designing and building web and mobile applications. Combines performance and innovation to deliver efficient, scalable solutions, with hands-on experience across React/Next.js front ends, Express.js/Supabase back ends, Flutter mobile development, and workflow automation.",
   email: "jawad.achraf@email.com",
   github: "https://github.com/ACHRAFJAOUAD",
-  linkedin: "https://www.linkedin.com/in/jaouad-achraf-77b955271",
+  linkedin: "www.linkedin.com/in/jawad-achraf-77b955271",
   skills: [
     {
       id: "1",
