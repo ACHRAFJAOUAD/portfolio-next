@@ -43,7 +43,7 @@ export const portfolioData = {
       title: "Programmer | Web Development & Automation",
       company: "ASSORS",
       location: "Rue Liberté, Casablanca",
-      period: "11/2025 – 06/2026",
+      period: "12/2025 – 06/2026",
       bullets: [
         "Developed and maintained web applications using Next.js and Express.js, delivering high-performance and scalable solutions.",
         "Built and customized WordPress websites for clients, focusing on design, functionality, and SEO optimization.",
@@ -57,7 +57,7 @@ export const portfolioData = {
       title: "Full-Stack Developer | Web Development",
       company: "TYTHON",
       location: "Bd Zerktouni, Casablanca",
-      period: "10/2024 – 07/2025",
+      period: "10/2024 – 12/2025",
       bullets: [
         "Worked on several projects, including France Ceramic, Assurisma, Africabis, and App All, using WordPress, React, and Express.js.",
         "Developed and optimized front-end applications with React, Redux, and TypeScript.",
