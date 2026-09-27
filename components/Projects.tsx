@@ -3,7 +3,7 @@
 import { portfolioData } from "@/data";
 import { useState, useRef, useEffect } from "react";
 
-const categories = ["Mobile Apps", "Websites", "Automation & AI"];
+const categories = ["Web Apps", "Mobile Apps", "Websites", "Automation & AI"];
 
 type Project = (typeof portfolioData.projects)[number];
 
