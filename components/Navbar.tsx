@@ -8,6 +8,7 @@ const links = [
   { label: "home.ts", href: "/" },
   { label: "about.ts", href: "/about" },
   { label: "skills.ts", href: "/skills" },
+  { label: "projects.ts", href: "/projects" },
   { label: "contact.ts", href: "/contact" },
 ];
 
