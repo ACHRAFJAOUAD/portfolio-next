@@ -188,8 +188,8 @@ export const portfolioData = {
     {
       id: "10",
       title: "Fabric Database Platform",
-      description: "An internal web application and dashboard dedicated to the admin and internal team for managing fabric inventories. Built with a Node.js/Express backend, PostgreSQL (Sequelize ORM), and a Next.js frontend, it serves as the central source of truth for real-time material availability.",
-      tech: ["Next.js", "Node.js", "Express", "REST API", "Sequelize ORM", "PostgreSQL"],
+      description: "An internal web application and dashboard dedicated to the admin and internal team for managing fabric inventories. Built with a Node.js/Express backend, PostgreSQL (Sequelize ORM), and a Next.js frontend, it serves as the central source of truth for real-time material availability. Features multi-language support.",
+      tech: ["Next.js", "Node.js", "Express", "REST API", "Sequelize ORM", "PostgreSQL", "i18n (EN/FR)"],
       github: "",
       category: "Web Apps",
     },
@@ -216,6 +216,15 @@ export const portfolioData = {
       tech: ["AI Agents", "Image Analysis", "Document Analysis", "Workflow Automation", "API Orchestration"],
       github: "",
       category: "Automation & AI",
+    },
+    {
+      id: "14",
+      title: "5/5 Event - Morocco-USA",
+      description: "A dynamic and interactive event landing page for the Morocco-USA Industrial Acceleration initiative. It features a custom countdown timer, video overlays, and dedicated sections for sponsors, buyers, and the event program. Built purely with vanilla web technologies, the site includes built-in application forms and contact functionality.",
+      tech: ["HTML5", "CSS3", "JavaScript", "SweetAlert2"],
+      github: "",
+      link: "https://55.tacticaltactics.ma/",
+      category: "Websites",
     },
   ],
 };
