@@ -45,7 +45,7 @@ export default function About() {
         </div>
 
         <p className="font-mono text-[#569cd6] text-xs mb-4">// certifications</p>
-        <div className="space-y-2">
+        <div className="space-y-2 mb-12">
           {portfolioData.certifications.map((cert, i) => (
             <p key={i} className="font-mono text-xs text-[#ce9178]">
               <span className="text-[#6a9955] mr-2">✓</span>
@@ -61,6 +61,28 @@ export default function About() {
               ) : cert}
             </p>
           ))}
+        </div>
+
+        <p className="font-mono text-[#569cd6] text-xs mb-4">// download resume</p>
+        <div className="flex flex-wrap gap-4">
+          <a
+            href="/resumes/Achraf_Jawad_Resume_EN.pdf"
+            download
+            className="group font-mono text-xs px-4 py-2 border border-[#3c3c3c] hover:border-[#569cd6] transition-colors rounded flex items-center gap-2"
+          >
+            <span className="text-[#cccccc] group-hover:text-white transition-colors">
+              📄 English Resume
+            </span>
+          </a>
+          <a
+            href="/resumes/Achraf_Jawad_Resume_FR.pdf"
+            download
+            className="group font-mono text-xs px-4 py-2 border border-[#3c3c3c] hover:border-[#569cd6] transition-colors rounded flex items-center gap-2"
+          >
+            <span className="text-[#cccccc] group-hover:text-white transition-colors">
+              📄 Résumé Français
+            </span>
+          </a>
         </div>
 
         <p className="font-mono text-white mt-10">{"}"}</p>
