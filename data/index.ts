@@ -234,5 +234,13 @@ export const portfolioData = {
       github: "",
       category: "Web Apps",
     },
+    {
+      id: "16",
+      title: "Task & Team Availability Assistant",
+      description: "An intelligent chatbot that manages team tasks and scheduling end to end, working directly with the ClickUp API to read and write real tasks, members, and statuses. It creates, assigns, and removes tasks while checking each member's real-time availability, so a task is never assigned to the wrong employee or scheduled on someone who is already busy with another active task. It reports every task's status (not started, in progress, completed) and accurately factors in working hours, work days, and breaks — including vacations, sick leave, public holidays, and reduced Ramadan working hours — preventing miscalculations and stopping tasks from being placed on invalid times, days, or people.",
+      tech: ["ClickUp API", "AI Agents", "Workflow Automation", "Task Scheduling", "Team Availability", "Calendar Integration", "REST API", "n8n"],
+      github: "",
+      category: "Automation & AI",
+    },
   ],
 };
