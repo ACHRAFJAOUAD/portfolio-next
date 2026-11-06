@@ -199,6 +199,7 @@ export const portfolioData = {
       description: "A robust B2B portal connecting clients with Moroccan manufacturing partner factories. The platform employs intelligent role-based access control (RBAC) to detect the user type upon login, automatically routing clients and brokers to a restricted product market, while directing internal teams and manufacturing partners to their dedicated management dashboards. The admin panel includes a comprehensive audit log tracking user actions (logins, updates, deletions) and an automated/manual database backup system with point-in-time restoration capabilities. Fully localized in English and French. Built with real-time Socket.IO features and a full Next.js/Node.js stack.",
       tech: ["Next.js", "Tailwind CSS", "Node.js", "Express", "REST API", "Sequelize ORM", "PostgreSQL", "Socket.IO", "RBAC", "Audit Logging", "Automated Backups", "i18n (EN/FR)"],
       github: "",
+      link: "https://dev.portal.tacticaltactics.com/",
       category: "Web Apps",
     },
     {
